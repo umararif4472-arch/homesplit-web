@@ -27178,7 +27178,7 @@ if(b>r.gwt())return q+r.a.b+" is owed."
 return null},
 aDJ(a){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e=A.q(t.N,t.S)
 for(s=a.length,r=0;r<a.length;a.length===s||(0,A.w)(a),++r){q=a[r]
-e.m(0,q.a.a,q.b-q.c+q.d-q.e)}p=A.b([],t.a5)
+e.m(0,q.a.a,q.b-q.c+q.e-q.d)}p=A.b([],t.a5)
 for(s=t.t,o=e.$ti.h("ba<1>"),n=o.h("y.E");;){m=A.Z(new A.ba(e,o),n)
 B.b.i9(m)
 for(l=m.length,k=null,j=null,r=0;r<m.length;m.length===l||(0,A.w)(m),++r){i=m[r]
@@ -92219,7 +92219,7 @@ return A.O($async$$0,r)},
 $S:71}
 A.ul.prototype={
 gwt(){var s=this
-return s.b-s.c+s.d-s.e}}
+return s.b-s.c+s.e-s.d}}
 A.a1c.prototype={
 $1(a){return a.e===this.a.a},
 $S:237}
@@ -92316,7 +92316,7 @@ l=A.bi(m.a.b,f,f,f,B.eA,f,f,f)
 k=m.b
 j=m.c
 i=A.bi("Paid "+A.f9(k)+" \xb7 Share "+A.f9(j),f,f,f,f,f,f,f)
-j=k-j+m.d-m.e
+j=k-j+m.e-m.d
 k=A.aYr(j)
 if(j>0)j=B.cN
 else j=j<0?B.bs:B.d8
